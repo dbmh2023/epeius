@@ -8,7 +8,7 @@ let subConverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使
 let subConfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
 let subEmoji = 'true';
-let socks5Address = '';
+let socks5Address = 'socks5://TG:liuxinyu@85.194.243.117:24550';
 let parsedSocks5Address = {}; 
 let enableSocks = false;
 
