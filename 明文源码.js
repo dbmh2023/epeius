@@ -1,7 +1,7 @@
 
 import { connect } from "cloudflare:sockets";
 
-let password = '';
+let password = 'fq2026';
 let proxyIP = 'ts.hpc.tw';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
@@ -22,7 +22,12 @@ let go2Socks5s = [
 	'*.loadshare.org',
 ];
 let addresses = [];
-let addressesapi = [];
+let addressesapi = [
+'https://cftxt2kv.pages.dev/addressesapi.txt?token=ibpb',
+'https://raw.githubusercontent.com/dbmh2023/addressesapi/refs/heads/main/ipv4.txt',
+'https://raw.githubusercontent.com/dbmh2023/addressesapi/refs/heads/main/ipv6.txt',
+'https://cmv6.xxxxxxxx.tk/',
+];
 let addressescsv = [];
 let DLS = 8;
 let remarkIndex = 1;//CSV备注所在列偏移量
